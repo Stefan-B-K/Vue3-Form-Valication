@@ -150,13 +150,13 @@ axios.get('https://json-server.istef.ml/events').then((res, _) => allEvents.push
 <style scoped>
 fieldset {
    border: 0;
-   margin: 0;
+   margin-top: 30px;
    padding: 0;
 }
 
 legend {
    font-size: 28px;
    font-weight: 700;
-   margin-top: 20px;
+   margin: 10px 0;
 }
 </style>

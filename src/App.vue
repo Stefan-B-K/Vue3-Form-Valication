@@ -211,6 +211,7 @@ textarea {
 
 [type="checkbox"],
 [type="radio"] {
+   display: inline-block;
    box-sizing: border-box;
    padding: 0;
    margin-right: 0.5rem;
@@ -308,6 +309,7 @@ select::ms-expand {
    justify-content: space-between;
    height: 52px;
    padding: 0 40px;
+   margin: 20px 0;
    background: transparent;
    border: none;
    border-radius: 6px;
